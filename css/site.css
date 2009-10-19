@@ -1,6 +1,6 @@
 body {
   font-family: Baskerville, Georgia, "Times New Roman", serif;
-  font-size: 100%;
+  font-size: 105%;
   background-image: url('/images/logo-transparent.png');
   background-repeat: no-repeat;
   background-position: top right;
@@ -11,16 +11,31 @@ h1 {
   font-size: 334%;
 }
 
-#hd {
-  border-bottom: 1px solid black;
+div#pitch {
+  margin: 1em 0;
+  font-size: 110%;
 }
 
-#ft {
-  border-top: 1px solid black;
+.de-em {
+  color: #666;
 }
 
 p {
   padding: 5px;
+  line-height: 1.5em;
+}
+
+#hd {
+  border-bottom: 1px solid #666;
+}
+
+#ft {
+  border-top: 1px solid #666;
+  color: #666;
+}
+
+#doc2 {
+  width: 90%;
 }
 
 #project-list li {
@@ -37,4 +52,7 @@ p {
     #project-list li h2 a {
       color: #0a0082;
     }
-  
+
+#bd {
+  margin-bottom: 1em
+}
