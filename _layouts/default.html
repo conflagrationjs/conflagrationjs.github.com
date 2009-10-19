@@ -4,10 +4,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
   <title>{{ page.title }}</title>
-  
+  <link rel="stylesheet" href="/css/reset-fonts-grids-min.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
 </head>
 
 <body>
-  {{ content }}
+  <div id="doc2"> 
+    <div id="hd"><h1>Conflagration JS</h1></div>  
+    <div id="bd">{{ content }}</div>  
+    <div id="ft"><!-- footer --></div>  
+  </div>
 </body>
 </html>

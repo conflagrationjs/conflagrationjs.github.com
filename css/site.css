@@ -1,0 +1,12 @@
+body {
+  font-family: Baskerville, Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 394%;
+}
+
+#hd {
+  border-bottom: 1px solid black;
+}
