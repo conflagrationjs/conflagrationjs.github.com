@@ -1,10 +1,11 @@
 body {
   font-family: Baskerville, Georgia, "Times New Roman", serif;
+  font-size: 100%;
 }
 
 h1 {
   font-variant: small-caps;
-  font-size: 394%;
+  font-size: 334%;
 }
 
 #hd {
